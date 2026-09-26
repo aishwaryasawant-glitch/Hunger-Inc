@@ -1,0 +1,13 @@
+{
+  "name": "rmf-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Restaurant Monitoring Framework dashboard (static frontend + Vercel serverless API + Neon Postgres)",
+  "type": "module",
+  "scripts": {
+    "seed": "node --env-file=.env.development.local scripts/seed.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.0"
+  }
+}
